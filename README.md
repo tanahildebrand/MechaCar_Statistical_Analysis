@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+## Overview
+
 ## Linear Regression to Predict MPG
 
 ![image](https://user-images.githubusercontent.com/41657419/229537963-491e4e94-f2ec-4b21-a82b-c23b280afe61.png)
@@ -27,3 +29,14 @@ Lot1 t-test: ![image](https://user-images.githubusercontent.com/41657419/2295408
 Lot2 t-test:![image](https://user-images.githubusercontent.com/41657419/229541686-ac48b126-977f-4d01-b70a-af9aaa65d164.png)
 
 Lot3 t-test:![image](https://user-images.githubusercontent.com/41657419/229541794-1327af86-a906-450a-a506-c1097d98ed0c.png)
+
+## Study Design: MechaCar vs Competition
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+In your description, address the following questions:
+
+ - What metric or metrics are you going to test?
+ - What is the null hypothesis or alternative hypothesis?
+ - What statistical test would you use to test the hypothesis? And why?
+ - What data is needed to run the statistical test?
