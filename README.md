@@ -1,14 +1,19 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
+AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles. This analysis is done to provide insights into the available data that may help the manufacturing team. For the purposes of this analysis, we've been provided with two files: "MechaCar_mpg.csv" and and "Suspension_Coil.csv".
 
 ## Linear Regression to Predict MPG
 
 ![image](https://user-images.githubusercontent.com/41657419/229537963-491e4e94-f2ec-4b21-a82b-c23b280afe61.png)
 
+Analysis:
  - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+   - Ground clearance and vehicle length are statistically likely to produce the most non-random variance to the mpg.
  - Is the slope of the linear model considered to be zero? Why or why not?
+   - No. The slope coefficients of individual variables (vehicle length, ground clearance, AWD) are sigfnigantly not zero.
  - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+   - Yes. This linear model does predict the MechaCar's MPG, as the adjusted R squared value for the model is 0.683.
  
 ## Summary Statistics on Suspension Coils
  
@@ -17,8 +22,10 @@ Total Summary:
 
 Lot Summary:
 ![image](https://user-images.githubusercontent.com/41657419/229539513-6f0ab0d4-e90f-4cac-9a06-c28507f26103.png)
- 
- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+Analysis:
+ - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+    - No, the current manufacturing design does not meet this requirement. While the overall variance is within this range (62.29), not all individual lots are compliant. Lots 1 and 2 are compliant, but Lot 3 shows a variance of 170.
 
 ## T-Tests on Suspension Coils
 
