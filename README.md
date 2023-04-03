@@ -29,6 +29,8 @@ Analysis:
 
 ## T-Tests on Suspension Coils
 
+For the t-test, I am assuming a needed significance level of 0.05. Below is the t-test for the overall data set, and each individaul lot.
+
 Overall t-test: ![image](https://user-images.githubusercontent.com/41657419/229541577-62a9daf3-eda4-464f-b9e4-2a914271178d.png)
 
 Lot1 t-test: ![image](https://user-images.githubusercontent.com/41657419/229540851-7e376c95-6e93-41e7-9921-1509e3f2964b.png)
@@ -37,13 +39,14 @@ Lot2 t-test:![image](https://user-images.githubusercontent.com/41657419/22954168
 
 Lot3 t-test:![image](https://user-images.githubusercontent.com/41657419/229541794-1327af86-a906-450a-a506-c1097d98ed0c.png)
 
+Analysis:
+ - The p-value of three of the tests (Overall 0.06, Lot1 1.0, Lot2 0.061) is above the needed significance level, and therefore there is not enough support to reject the null hypothesis.
+ - The p-value of the Lot3 test is 0.04, which is below the needed level. Lot3 has the opportunity to reject the null hypothesis.
+
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+To further analyze the MechaCar vs it's competition, I would want to study the maintenance costs as compared to the horsepower. The reason for this is that many consumers consider the upfront costs when purchasing a car, but mainenance can often be a surprise cost. If the MechaCar proves to have better maintenance costs than it's competition, this would be a good sales pitch and marketing content.
 
-In your description, address the following questions:
+My alternative hypothesis is that the MechaCar will have lower maintenance costs than those with similar horsepower.
 
- - What metric or metrics are you going to test?
- - What is the null hypothesis or alternative hypothesis?
- - What statistical test would you use to test the hypothesis? And why?
- - What data is needed to run the statistical test?
+To complete the analysis, I would need data from MechaCar and it's competitors for both horsepower and maintenance costs.
